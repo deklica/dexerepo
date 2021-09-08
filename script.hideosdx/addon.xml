@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.hideosd" version="2021.08.30" name="Hide Video OSD" provider-name="aenema, dEXE">
+<addon id="script.hideosdx" version="2021.08.30" name="Hide Video OSD" provider-name="aenema, dEXE">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 	</requires>
