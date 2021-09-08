@@ -325,7 +325,7 @@ v5.2.14 (2017-01-23)
         <import addon="script.module.requests" version="2.3.0"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
-	<provides>executable video</provides>
+	<provides>video</provides>
     </extension>
     <extension point="kodi.context.item">
         <menu id="kodi.core.main">
