@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+
+<addon id="repository.dexe" name="dEXE's Addons Repository" version="2021.09.08" provider-name="dEXE">
+    <extension point="xbmc.addon.repository" name="dEXE's Addons Repository">
+	<dir minversion="16.0">
+		<info compressed="false">https://raw.githubusercontent.com/deklica/dexerepo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/deklica/dexerepo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/deklica/dexerepo/master/zips/</datadir>
+	</dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>dEXE's Repo</summary>
+        <description>This is just a repo...</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="script.hideosd" version="2018.05.20" name="Hide Video OSD" provider-name="aenema">
+	<requires>
+		<import addon="xbmc.python" version="2.10.0" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="main.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+        <description>A Simple script to autohide video osd for inactivity. Timeout can be set in the addon settings</description>
+		<summary lang="en">Autohide Video OSD</summary>
+		<platform>all</platform>
+		<forum>-</forum>
+		<website>-</website>
+		<source>-</source>
+		<news>-</news>
+	</extension>
+</addon>
+
+<addon id="script.hideosdx" version="2021.08.30" name="Hide Video OSD" provider-name="aenema, dEXE">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="main.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+        <description>A Simple script to autohide video osd for inactivity. Timeout can be set in the addon settings.</description>
+		<summary lang="en">Autohide Video OSD</summary>
+		<platform>all</platform>
+		<news>New unofficial addon [CR] - Version 2021.08.30[CR] Kodi Matrix (v19) update</news>
+		<website>-</website>
+		<email>-</email>
+		<forum>-</forum>
+		<source>-</source>
+        <assets>
+            <icon>icon.png</icon>
+		</assets>
+	</extension>
+</addon>
+
+</addons>
