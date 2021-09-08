@@ -1,2 +1,2 @@
-# dexerepo
+# dEXE's Repo
 Kodi Repository
